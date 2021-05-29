@@ -1,0 +1,31 @@
+section {
+  background-color: $Very_light_gray;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @media (max-width: $phone) {
+    padding: 6rem 5rem;
+  }
+}
+.container {
+  width: 70%;
+  margin: 0 auto;
+  @media (max-width: $tablet) {
+    width: 90%;
+  }
+}
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  @media (max-width: $phone) {
+    flex-direction: column;
+  }
+}
+
+// @media (max-width: $phone) {
+
+//     flex-direction: column;
+//
+// }
